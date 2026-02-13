@@ -9,7 +9,6 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
-import Logo from "./components/layout/Logo";
 import Header from "./components/layout/Header";
 
 export const links: Route.LinksFunction = () => [
