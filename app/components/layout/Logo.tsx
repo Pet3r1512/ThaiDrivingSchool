@@ -1,3 +1,11 @@
-export default function Logo() {
-  return <img srcSet="/logo.jpg" className="w-auto h-12"></img>;
+import clsx from "clsx";
+
+export default function Logo({ className }: { className?: string }) {
+  return (
+    <img
+      src="/logo.jpg"
+      alt="Logo"
+      className={clsx("h-12 w-auto max-w-full object-contain", className)}
+    />
+  );
 }
