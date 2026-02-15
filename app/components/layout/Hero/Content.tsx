@@ -38,7 +38,7 @@ export default function Content() {
             duration: 0.6,
           }}
         >
-          <div className="flex items-center w-fit gap-x-1.5 py-1 px-3 rounded-full bg-amber-500/10 text-amber-500 font-semibold text-sm mb-6 border border-amber-500/20">
+          <div className="flex items-center w-fit gap-x-1.5 py-1 px-3 rounded-full bg-amber-500/10 text-amber-500 font-semibold text-sm mb-6 border border-amber-500/20 pointer-events-none">
             <CircleCheckBig
               size={18}
               strokeWidth={3.5}
@@ -47,12 +47,14 @@ export default function Content() {
             Recommended Driving School
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
-            Your Road to <span className="text-amber-500">Freedom</span> Starts
-            Here
+            Learn to{" "}
+            <span className="text-amber-500">Drive with Confidence</span> in
+            Australia
           </h1>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
-            Master the art of driving with professional instruction, modern
-            vehicles, and a curriculum designed for safety and confidence.
+            One-on-one <strong className="text-amber-500">L-plate </strong>
+            driving lessons with a patient, fully licensed instructor. Learn in
+            a modern car, at your pace, on real Australian roads.
           </p>
         </motion.div>
 
