@@ -23,7 +23,7 @@ export default function Content() {
     },
   ];
   return (
-    <div className="container mx-auto p-5 lg:py-0 lg:px-4 relative z-10">
+    <div className="container mx-auto p-5 lg:py-0 lg:px-4 relative z-10 lg:flex lg:items-center lg:justify-between">
       <div className="max-w-4xl">
         <motion.div
           initial={{
@@ -47,9 +47,8 @@ export default function Content() {
             Recommended Driving School
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
-            Learn to{" "}
-            <span className="text-amber-500">Drive with Confidence</span> in
-            Australia
+            Your <span className="text-amber-500">Road to Freedom</span> Start
+            Here
           </h1>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
             One-on-one <strong className="text-amber-500">L-plate </strong>
@@ -110,6 +109,9 @@ export default function Content() {
             </div>
           ))}
         </motion.div>
+      </div>
+      <div className="hidden lg:block w-xl aspect-square rounded-full overflow-hidden shadow-2xl">
+        <img src="/hero.jpg" alt="" className="w-full h-full object-cover" />
       </div>
     </div>
   );
