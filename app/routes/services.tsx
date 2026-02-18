@@ -10,7 +10,7 @@ export default function Services() {
   return (
     <div className="min-h-screen bg-slate-50">
       <PageTitle
-        title="Our Courses"
+        title="Our Services"
         subtitle="Find the perfect driving course tailored to your experience level and goals."
       />
       <ServicesSection />
