@@ -23,7 +23,7 @@ export default function Sidebar() {
 
   return (
     <Drawer direction="right">
-      <DrawerTrigger>
+      <DrawerTrigger className="outline-none!">
         <Menu />
       </DrawerTrigger>
       <DrawerContent className="rounded-l-2xl">
