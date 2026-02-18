@@ -62,10 +62,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li>Beginner Course</li>
               <li>Refresher Training</li>
-              <li>Intensive Program</li>
-              <li>Highway Safety</li>
-              <li>Manual Transmission</li>
-              <li>Defensive Driving</li>
+              <li>Get Ready for Driving Test</li>
             </ul>
           </div>
 
