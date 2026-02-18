@@ -8,7 +8,7 @@ export default function Content() {
   const stats = [
     {
       icon: Users,
-      value: "1000+",
+      value: "500+",
       label: "Students",
     },
     {
@@ -18,7 +18,7 @@ export default function Content() {
     },
     {
       icon: Calendar,
-      value: "15+",
+      value: "5+",
       label: "Years",
     },
   ];
